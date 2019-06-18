@@ -1,0 +1,29 @@
+{
+  "name": "mithril-starter",
+  "version": "1.0.0",
+  "description": "A Mithril starter project",
+  "main": "src/index.js",
+  "repository": "git@gitlab.com:kebg/mithril-starter.git",
+  "author": "'keb' <keb@pm.me>",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w --environment DEV",
+    "build": "rollup -c --environment PROD",
+    "test": "ospec"
+  },
+  "dependencies": {
+    "ace-css": "^1.1.0",
+    "bss": "^1.6.2",
+    "mithril": "^2.0.0-rc.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "jsdom": "^15.1.1",
+    "rollup": "^1.10.0",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-node-resolve": "^5.0.3",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}

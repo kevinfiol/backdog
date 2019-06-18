@@ -1,0 +1,16 @@
+# misc
+.vscode/
+
+# server
+vendor/
+logs/
+cache/
+config.php
+backdog.db
+*.db
+
+# client
+client/node_modules/
+web/js/bundle.js
+*.map
+yarn-error.log
